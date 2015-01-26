@@ -118,14 +118,14 @@
                   <div class="col-lg-5 col-sm-6">
                       <hr class="section-heading-spacer">
                       <div class="clearfix"></div>
-                      <h2 class="section-heading">Pear-Soap:<br>House Manager Web Application</h2>
-                      <p class="lead">Pear-Soap is a web application written in Python using the Flask microframework.
+                      <h2 class="section-heading">Housemates:<br>House Manager Web Application</h2>
+                      <p class="lead">Housemates is a web application written in Python using the Flask microframework.
                       I wanted to create a website that would help housemates manage
                       the yuckier parts of living together, such as who does which chores and when.
                       Housemates using my website can track bills and receive friendly text reminders when
                       bill due dates are approaching. Each house receives its own private space to post
                       house events and send messages to each other.
-                      <p class="lead"><a href="pear-soap.herokuapp.com">Visit Page</a> | <a href="http://github.com/Radahika/pear">View on Github</a>
+                      <p class="lead"><a href="http://github.com/Radahika/pear">View on Github</a>
                  </div>
                   <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                       <img style="padding-top:100px;" class="img-responsive" src="img/home.jpg" alt="">
@@ -146,11 +146,19 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">RHS<br>Simplify Regular Expressions</h2>
+                    <p class="lead">
+                    For my compilers class I designed and wrote a JavaScript DSL that
+                    helps users compose regular expressions using method chaining,
+                    function composition, and set operations, e.g. intersect, complement,
+                    union. The set operations functionality parses REs to create
+                    ASTs which are then converted into automata (NFAs and DFAs)
+                    that after applying the set operation are converted
+                    back into brand new REs that the user did not have to compose.</p>
+                    <p class="lead"><a href="http://github.com/Radahika/rhs">View on Github</a>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img style="padding-top:100px;" class="img-responsive" src="img/automata.png" alt="">
                 </div>
             </div>
 
@@ -168,11 +176,19 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Firewall</h2>
+                    <p class="lead">
+                    For my networking class, I implemented a stateful active application-layer
+                    firewall in Python. My firewall generated packets in
+                    response to denied packets as well as log selected http transcations over TCP connections.
+                    The firewall first takes in a set of rules to apply to incoming and outgoing packet. Each
+                    IPv4 packet is parsed to determine the necessary fields such as source and destination
+                    addresses as well as protocol type (TCP, UDP, or ICMP) and and the correct rule is applied
+                    to determine whether to drop or pass the packet.
+                    (email me for the code)</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img style="padding-top: 100px;" class="img-responsive" src="img/firewall.png" alt="">
                 </div>
             </div>
 
@@ -181,6 +197,85 @@
 
     </div>
     <!-- /.content-section-a -->
+
+        <div class="content-section-b">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">CS164 Interpreter</h2>
+                    <p class="lead">
+                    For my compilers class, I wrote a complete interpreter for a
+                    simple language called CS164 in Javascript. It is capable of defining variables,
+                    functions, dictionaries, lists, lambdas, coroutines, and much more!
+                    In addition, it is also tail call optimized!
+                    (email me for the code)
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img style="padding-top:10px; height: 350px; padding-left: 150px;" class="img-responsive" src="img/lambda.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">File Compressor</h2>
+                    <p class="lead">
+                    For my data structures class, I wrote a compressor engine in Java that could compress any type of file or even directories. The engine first scans through the file byte-by-byte and determines the best encoding map with Huffman Encoding. Then the files stream into the compressor which encodes them.
+                    (email me for the code)</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img style="padding-top: 100px; height: 350px" class="img-responsive" src="img/compress.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+            <div class="content-section-b">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Sliding Block Puzzle Solver</h2>
+                    <p class="lead">
+                    For my final project in data structures. I built a
+                    puzzle solver in Java that takes in the initial game
+                    state of a puzzle and some type of goal. Then the
+                    program chooses the best option of graph searches
+                    to find the optimal solution. The graph searches
+                    I used were A*, Iterative deepening, depth-first search
+                    and combinations of these algorithms. I also wrote
+                    the heuristic functions to greatly prune the search states.
+                    (email me for the code)
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img style="padding-top:10px; height: 300px; padding-left: 100px;" class="img-responsive" src="img/puzzle.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
 
 	<a name="contact"></a>
     <div class="banner">

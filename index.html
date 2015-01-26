@@ -27,6 +27,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="shortcut icon" href="img/favicon.ico">
 
 </head>
 
@@ -49,7 +50,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a id="about">About</a>
+                        <a id="about_me">About</a>
                     </li>
                     <li>
                         <a id="projects" >Projects</a>
@@ -96,20 +97,39 @@
 
     <!-- Page Content -->
 
-	<a  class="projects" name="services"></a>
     <div class="content-section-a">
 
-        <div class="container">
+        <div class="container" id="about">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+              <div class="about_me">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
-                </div>
+                    <h2 class="section-heading"><br>About Me<br></h2>
+                    <p class="lead"> ABOUT ME HERE.</p>
+                 </div>
+              </div>
+            </div>
+        </div>
+        <!-- /.container -->
+        <h1 style="text-align: center"> Personal Projects </h1>
+	      <a class="projects" name="services"></a>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-5 col-sm-6">
+                      <hr class="section-heading-spacer">
+                      <div class="clearfix"></div>
+                      <h2 class="section-heading">Pear-Soap:<br>House Manager Web Application</h2>
+                      <p class="lead">Pear-Soap is a web application written in Python using the Flask microframework.
+                      I wanted to create a website that would help housemates manage
+                      the yuckier parts of living together, such as who does which chores and when.
+                      Housemates using my website can track bills and receive friendly text reminders when
+                      bill due dates are approaching. Each house receives its own private space to post
+                      house events and send messages to each other.
+                      <p class="lead"><a href="pear-soap.herokuapp.com">Visit Page</a> | <a href="http://github.com/Radahika/pear">View on Github</a>
+                 </div>
+                  <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                      <img style="padding-top:100px;" class="img-responsive" src="img/home.jpg" alt="">
+                  </div>
             </div>
 
         </div>
@@ -119,7 +139,7 @@
     <!-- /.content-section-a -->
 
     <div class="content-section-b">
-
+        <h1 style="text-align: center"> Class Projects </h1>
         <div class="container">
 
             <div class="row">
@@ -174,6 +194,12 @@
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
+                            <a class="btn btn-default btn-lg"><span class="network-name">marvin.radhika@gmail.com</span></a>
+                        </li>
+                        <br>
+                        <br>
+
+                        <li>
                             <a href="https://github.com/Radahika" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
                         <li>
@@ -195,23 +221,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a id="contact">Contact</a>
-                        </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -225,9 +235,9 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
-        $("#about").click(function() {
+        $("#about_me").click(function() {
           $('html, body').animate({
-              scrollTop: $(".about").offset().top},
+              scrollTop: $("#about").offset().top},
           'slow');
         });
 

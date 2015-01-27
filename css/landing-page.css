@@ -176,3 +176,7 @@ p.copyright {
   text-align: center;
   padding-bottom: 50px;
 }
+
+.tabs:hover {
+ cursor:pointer;
+}
